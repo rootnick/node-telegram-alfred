@@ -1,3 +1,3 @@
-function add(fist: number, second: number): number {
-  return fist + second;
-}
+import 'dotenv/config';
+
+console.log(process.env.TELEGRAM_BOT_TOKEN);
